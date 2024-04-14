@@ -1,0 +1,49 @@
+* {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+#Bob {
+  width: 100px;
+}
+
+.title {
+  /* width: max-content; */
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  text-align: right;
+}
+.title {
+  text-align: center;
+  margin-top: 3rem;
+}
+.red-text {
+  color: black;
+}
+
+div form label.blue-text {
+  color: rgb(0, 0, 0);
+}
+
+input[type="password"] {
+  width: 100px;
+}
+* {
+  color: black;
+}
+
+h1::before {
+  content: ">>> ";
+}
+h1::after {
+  content: " <<<";
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
